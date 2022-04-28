@@ -12,7 +12,7 @@ For example, when looking at the given shape, students might talk about it in di
 
 ---
 
-In this course, you will learn how third grade students reason about the attributes of two-dimensional shapes and then apply these understandings to measure of [perimeter](gloss:perimeter)
+Students reason about the attributes of two-dimensional shapes and then apply these understandings to measure of [perimeter](gloss:perimeter).
 
     figure: img(src="images/intro-2.png" width=400)
 
@@ -22,7 +22,9 @@ In this course, you will learn how third grade students reason about the attribu
 
 In third grade, students see that [quadrilaterals](gloss:quadrilateral) can be classified based on their sides (whether some are of equal length) and their corners (whether one or more square corners are present). They sort shapes using language and attributes that are familiar to them.
 
-    iframe.pp(src="https://mathigon.org/polypad/embed/fQSU8mcO3jgXg?key=mathigon")
+Try it! How might you sort these shapes into categories? How do you think your students might sort these shapes?
+
+    iframe.pp(src="https://mathigon.org/polypad/embed/SUuz3WzmCSqKhA?key=mathigon")
 
 [Continue](btn:next)
 
@@ -30,7 +32,7 @@ In third grade, students see that [quadrilaterals](gloss:quadrilateral) can be c
 > id: quadrilaterals
 > goals: tabs
 
-Quadrilaterals can be used to create patterns that are visually appealing and interesting. Look at how the pattern changes as we highlight the shapes in the design:
+Quadrilaterals can be used to create patterns that are visually appealing and interesting. Choose a label to highlight different quadrilaterals.
 
     x-select.segmented.var(:bind="type")
       div(value="quadrilateral" style="width:130px") Quadrilateral
@@ -118,7 +120,7 @@ For example, here are three quadrilaterals. The first one is a rectangle, a rhom
 
 ---
 
-Try it! How might you sort these shapes into categories? How do you think your students might sort these shapes?
+Try it! Select whether each statement is True or False.
 
     iframe.pp(src="https://mathigon.org/polypad/embed/SUuz3WzmCSqKhA?key=mathigon")
 
@@ -128,9 +130,9 @@ Try it! How might you sort these shapes into categories? How do you think your s
 
 In third grade, students are introduced to the idea of [perimeter](gloss:perimeter).
 
-Progression of finding the perimeter:
+Student progression of finding the perimeter:
 
-(1) Students use concrete object (like paperclips) to build the boundary
+(1) Use concrete object (like paperclips) to build the boundary.
 
     figure: img(src="images/clips.png" width=280)
 
@@ -140,7 +142,7 @@ Progression of finding the perimeter:
 > id: q1
 > goals: tabs
 
-(2) Students find the distance around the shape by counting the [intervals](gloss:interval) or
+(2) Find the distance around the shape by counting the [intervals](gloss:interval) or
 adding the number of units on each side.
 
     x-select.segmented.var(:bind="type")
@@ -152,7 +154,7 @@ adding the number of units on each side.
 > id: q2
 > goals: tabs
 
-(3) Students use the geometric attributes of shapes to find perimeter more efficiently (by
+(3) Use the geometric attributes of shapes to find perimeter more efficiently (by
 recognizing sides that are the same length and using multiplication).
 
     x-select.segmented.var(:bind="type")
@@ -198,7 +200,7 @@ Three students were asked to find the perimeter of this square:
 > id: buckets
 > goals: buckets
 
-The correst student is [[Tyler | Lexi | Maggie]]. Consider ways to illuminate these types of
+[[Tyler | Lexi | Maggie]] is correct. Consider ways to illuminate these types of
 misconceptions with students: Drag the statements into the box for the correct student.
 
     x-buckets
@@ -229,8 +231,6 @@ As students solve problems relating [perimeter](gloss:perimeter) and [area](glos
     img(src="images/p2.png" width=320)
 
 :::
-
-If the perimeter of a rectangle increases, the area [[sometimes | always | never]] increases.
 
 ---
 
